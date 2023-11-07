@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 import { MapContainer,TileLayer,Marker,Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
@@ -16,7 +16,7 @@ function App() {
         />
         <Marker position={[-22.986, -43.237]}>
             <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
+            Você está aqui
             </Popup>
         </Marker>
       </MapContainer>
@@ -26,3 +26,4 @@ function App() {
 }
 
 export default App;
+*/
