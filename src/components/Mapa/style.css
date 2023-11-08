@@ -1,11 +1,11 @@
 .leaflet-container{
     
-    width: 70vh;
+    width: 200vh;
     height: 100vh;
 }
 div{
 
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }

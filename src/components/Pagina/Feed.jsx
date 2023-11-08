@@ -6,6 +6,17 @@ const Feed = () =>{
     return(
         <>
            <QFeed>
+           </QFeed>
+           <QFeed>
+            
+           </QFeed>
+           <QFeed>
+            
+           </QFeed>
+           <QFeed>
+            
+           </QFeed>
+           <QFeed>
             
            </QFeed>
 

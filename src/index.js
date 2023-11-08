@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-//import Mapa from './components/Mapa/Mapa';
+import Mapa from './components/Mapa/Mapa';
 import Feed from './components/Pagina/Feed';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Feed />
+    <Mapa />
   </React.StrictMode>
 );
 
