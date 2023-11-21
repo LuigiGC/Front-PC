@@ -1,7 +1,8 @@
 .leaflet-container{
     
-    width: 200vh;
-    height: 100vh;
+    width: 500px;
+    height: 1000px;
+    border: 2px black solid;
 }
 div{
 

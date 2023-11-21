@@ -1,0 +1,6 @@
+<BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Feed />} />
+        <Route path="/" element={<Mapa />} />
+      </Routes>
+    </BrowserRouter>
