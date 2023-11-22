@@ -15,7 +15,7 @@ const QFeed1 = () =>{
     <>
         <CartaoFeed>
             <Titulo>
-                Prédio antigo
+                Prédio antigo - 1
             </Titulo>
             <LocalPredio>
                 Centro
