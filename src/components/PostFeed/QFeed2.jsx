@@ -9,6 +9,10 @@ const QFeed2 = () =>{
 
     const handleLike = () => {
       setCurtido(!curtido);
+      
+    };
+    const irParaMapa = () =>{
+        window.location = "https://luigigc.github.io/Front-PC/#/Mapa";
     };
     return(
         
@@ -29,7 +33,7 @@ const QFeed2 = () =>{
             <FontAwesomeIcon icon={faHeart} /> {curtido ? "Descurtir" : "Curtir"}
             </Botao>
                 <Botao>Comentários</Botao>
-                <Botao>Ver no Mapa</Botao>
+                <Botao onClick={irParaMapa}> Ver no Mapa </Botao>
             </BotoesContainer>
         </CartaoFeed>
     </>
