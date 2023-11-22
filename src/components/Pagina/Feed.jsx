@@ -13,7 +13,7 @@ const Feed = () => {
   return (
     <div>
     <DivBotoes>
-      <PasseioCarioca>Passeio Carioca</PasseioCarioca>
+      <PasseioCarioca>Passeio Cariocaa</PasseioCarioca>
       <Link to="/Mapa">
         <Botao>
           <FontAwesomeIcon icon={faMapMarker} /> Mapa

@@ -6,7 +6,7 @@ import Mapa from './components/Mapa/Mapa';
 import Feed from './components/Pagina/Feed';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import QFeed1 from './components/PostFeed/QFeed1';
 
 library.add(faHeart);
@@ -15,12 +15,12 @@ library.add(faHeart);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Feed />} />
         <Route path="mapa" element={<Mapa />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
