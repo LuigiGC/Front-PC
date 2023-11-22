@@ -16,11 +16,12 @@ const FeedP = styled.div`
   justify-content: center;
 `;
 const Botao = styled.button`
+  
   width: 100px;
-  height:35px;
+  height:50px;
   cursor: pointer;
   border: 2px solid #ccc;
-  border-radius: 20px;
+  border-radius: 30px;
   margin-top: 5px;
   text-align:center;
 
@@ -35,14 +36,13 @@ const Botao = styled.button`
 
 const DivBotoes = styled.div`
   //border: 1px blue solid
-  justify-content: center;
-  background: white;
+  justify-content: right;
   height: auto;
   display:flex;
-  width: auto;
-  @media screen and (max-width:500px){
+  width: 100%;
+  /*@media screen and (max-width:450px){
     width:350px;
-  }
+  }*/
 `;
 
 const PasseioCarioca = styled.p`
@@ -53,5 +53,14 @@ const PasseioCarioca = styled.p`
 
 
 `;
+const Cabecalho = styled.div`
+  display: flex;
+  height:85px;
+  
+  
+  @media screen and (max-width:500px){
+    width:350px;
+  }
+`;
 
-export {ContainerFeed,FeedP,Botao,DivBotoes,PasseioCarioca};
+export {ContainerFeed,FeedP,Botao,DivBotoes,PasseioCarioca,Cabecalho};

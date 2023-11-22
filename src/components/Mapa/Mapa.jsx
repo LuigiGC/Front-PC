@@ -5,7 +5,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarker,faRss, faPager } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
-import {Botao } from "./styleJS";
+import {Botao,Cabecalho,PasseioCarioca,DivBotoes} from "./styleJS";
 
 
 import L from "leaflet";
@@ -20,18 +20,21 @@ const Mapa = () =>{
     const BarraShopping = [-22.99757464556799, -43.35807188448556]
     return(                      
             <div> 
-                <divBotoes>
-                    <Link to="/Mapa">
+                <Cabecalho>      
+                    <PasseioCarioca>Passeio Carioca</PasseioCarioca>
+                    <DivBotoes>
+                        <Link to="/Mapa">
                         <Botao>
-                        <FontAwesomeIcon icon={faMapMarker} /> Mapa
+                            <FontAwesomeIcon icon={faMapMarker} /> Mapa
                         </Botao>
-                    </Link>
-                    <Link to="/">
+                        </Link>
+                        <Link to="/">
                         <Botao>
-                        <FontAwesomeIcon icon={faPager} /> Feed
+                            <FontAwesomeIcon icon={faPager} /> Feed
                         </Botao>
-                    </Link>
-                </divBotoes>
+                        </Link>
+                    </DivBotoes>
+                </Cabecalho>
 
                 <MapContainer center={barra} zoom={13}>
                         <TileLayer
