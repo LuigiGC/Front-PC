@@ -22,6 +22,6 @@ Pagina:
 https://luigigc.github.io/Front-PC/
 
 
-"start": "PUBLIC_URL='.' react-scripts start",
+
 
 
