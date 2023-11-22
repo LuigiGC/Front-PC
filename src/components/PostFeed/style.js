@@ -33,6 +33,9 @@ const CartaoFeed = styled.div`
     animation: ${pulseAnimation} 1s ease-in-out;
     color: blue;
   }
+  @media screen and (max-width:400px){
+    width:300px;
+  }
 `;
 
 const Titulo = styled.h3`
