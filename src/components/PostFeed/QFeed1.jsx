@@ -30,9 +30,9 @@ const QFeed1 = () =>{
             <FontAwesomeIcon icon={faHeart} /> {curtido ? "Descurtir" : "Curtir"}
             </Botao>
                 <Botao>Comentários</Botao>
-                <Link to="Mapa">
+                
                 <Botao>Ver no Mapa</Botao>
-                </Link>
+                
             </BotoesContainer>
         </CartaoFeed>
     </>
