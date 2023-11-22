@@ -7,24 +7,26 @@ import QFeed2 from "../PostFeed/QFeed2";
 import QFeed3 from "../PostFeed/QFeed3";
 import QFeed4 from "../PostFeed/QFeed4";
 import QFeed5 from "../PostFeed/QFeed5";
-import { ContainerFeed, FeedP, TituloFeed, Botao,DivBotoes,PasseioCarioca } from "./style";
+import {Botao,DivBotoes,PasseioCarioca,Cabecalho } from "./style";
 
 const Feed = () => {
   return (
     <div>
-    <DivBotoes>
+      <Cabecalho>      
       <PasseioCarioca>Passeio Carioca</PasseioCarioca>
-      <Link to="/Mapa">
-        <Botao>
-          <FontAwesomeIcon icon={faMapMarker} /> Mapa
-        </Botao>
-      </Link>
-      <Link to="/">
-        <Botao>
-          <FontAwesomeIcon icon={faPager} /> Feed
-        </Botao>
-      </Link>
-    </DivBotoes>
+      <DivBotoes>
+        <Link to="/Mapa">
+          <Botao>
+            <FontAwesomeIcon icon={faMapMarker} /> Mapa
+          </Botao>
+        </Link>
+        <Link to="/">
+          <Botao>
+            <FontAwesomeIcon icon={faPager} /> Feed
+          </Botao>
+        </Link>
+      </DivBotoes>
+      </Cabecalho>
 
       <QFeed1 />
       <QFeed2 />
