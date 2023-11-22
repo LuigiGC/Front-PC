@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Front-PC/static/css/main.82a4f34a.css",
-    "main.js": "/Front-PC/static/js/main.f9ca537b.js",
+    "main.css": "/Front-PC/static/css/main.ad5f98a9.css",
+    "main.js": "/Front-PC/static/js/main.73a6bbe1.js",
     "static/js/787.53909643.chunk.js": "/Front-PC/static/js/787.53909643.chunk.js",
     "static/media/casa4.jpg": "/Front-PC/static/media/casa4.564b4317438005102cbe.jpg",
     "static/media/casa3.webp": "/Front-PC/static/media/casa3.d2c84d80caf098274343.webp",
@@ -10,12 +10,12 @@
     "static/media/casa5.jpg": "/Front-PC/static/media/casa5.af095e90ab90a60f422b.jpg",
     "static/media/pingMapa.webp": "/Front-PC/static/media/pingMapa.e272184aa06666900654.webp",
     "index.html": "/Front-PC/index.html",
-    "main.82a4f34a.css.map": "/Front-PC/static/css/main.82a4f34a.css.map",
-    "main.f9ca537b.js.map": "/Front-PC/static/js/main.f9ca537b.js.map",
+    "main.ad5f98a9.css.map": "/Front-PC/static/css/main.ad5f98a9.css.map",
+    "main.73a6bbe1.js.map": "/Front-PC/static/js/main.73a6bbe1.js.map",
     "787.53909643.chunk.js.map": "/Front-PC/static/js/787.53909643.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82a4f34a.css",
-    "static/js/main.f9ca537b.js"
+    "static/css/main.ad5f98a9.css",
+    "static/js/main.73a6bbe1.js"
   ]
 }
