@@ -3,6 +3,7 @@ import ImagemEscolhida from '../ImagensPosts/casa1.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 const QFeed1 = () =>{
     const [curtido, setCurtido] = useState(false);
@@ -29,7 +30,9 @@ const QFeed1 = () =>{
             <FontAwesomeIcon icon={faHeart} /> {curtido ? "Descurtir" : "Curtir"}
             </Botao>
                 <Botao>Comentários</Botao>
+                <Link to="Mapa">
                 <Botao>Ver no Mapa</Botao>
+                </Link>
             </BotoesContainer>
         </CartaoFeed>
     </>

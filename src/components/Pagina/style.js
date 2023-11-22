@@ -40,7 +40,7 @@ const DivBotoes = styled.div`
   height: auto;
   display:flex;
   width: auto;
-  @media screen and (max-width:400px){
+  @media screen and (max-width:450px){
     width:350px;
   }
 `;

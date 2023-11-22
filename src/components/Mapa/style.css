@@ -3,7 +3,7 @@
     width: 500px;
     height: 1000px;
     border: 2px black solid;
-    @media screen and (max-width:400px){
+    @media screen and (max-width:450px){
         width:350px;
       }
 }
