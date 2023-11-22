@@ -34,7 +34,7 @@ const CartaoFeed = styled.div`
     color: blue;
   }
   @media screen and (max-width:400px){
-    width:300px;
+    width:350px;
   }
 `;
 
