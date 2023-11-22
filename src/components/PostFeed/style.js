@@ -64,7 +64,7 @@ const Botao = styled.button`
   cursor: pointer;
   border: 2px solid #03364f;
   border-radius: 20px;
-  width: 40%;
+  width: 45%;
   margin: 0px;
   color: #03364f;
 

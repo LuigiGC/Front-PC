@@ -4,12 +4,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { useState } from 'react';
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const QFeed1 = () =>{
     const [curtido, setCurtido] = useState(false);
 
     const handleLike = () => {
       setCurtido(!curtido);
+    };
+
+    const irParaMapa = () =>{
+        window.location = "https://luigigc.github.io/Front-PC/#/Mapa";
     };
     return(
         
@@ -29,9 +34,8 @@ const QFeed1 = () =>{
             <Botao className={curtido ? "liked" : ""} onClick={handleLike}>
             <FontAwesomeIcon icon={faHeart} /> {curtido ? "Descurtir" : "Curtir"}
             </Botao>
-                <Botao>Comentários</Botao>
-                
-                <Botao>Ver no Mapa</Botao>
+                <Botao>Comentários</Botao>                
+                <Botao onClick={irParaMapa}> Ver no Mapa </Botao>
                 
             </BotoesContainer>
         </CartaoFeed>
