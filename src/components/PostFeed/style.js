@@ -33,7 +33,7 @@ const CartaoFeed = styled.div`
     animation: ${pulseAnimation} 1s ease-in-out;
     color: blue;
   }
-  @media screen and (max-width:400px){
+  @media screen and (max-width:500px){
     width:350px;
   }
 `;

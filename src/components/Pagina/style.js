@@ -35,12 +35,12 @@ const Botao = styled.button`
 
 const DivBotoes = styled.div`
   //border: 1px blue solid
-  justify-content: left;
+  justify-content: center;
   background: white;
   height: auto;
   display:flex;
   width: auto;
-  @media screen and (max-width:450px){
+  @media screen and (max-width:500px){
     width:350px;
   }
 `;
